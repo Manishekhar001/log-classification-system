@@ -1,0 +1,9 @@
+pandas
+groq
+sentence-transformers
+scikit-learn
+joblib
+huggingface-hub
+fastapi
+uvicorn[standard]
+pydantic
