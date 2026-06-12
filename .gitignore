@@ -49,7 +49,8 @@ Thumbs.db
 /dataSources.local.xml
 .xml
 
-# --- Project-specific sensitive files ---
+# --- Project-specific files ---
 log-classification_accessKeys.csv
 log-classification_credentials.csv
 log-classification.pem
+notes.html

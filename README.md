@@ -91,7 +91,6 @@ Every classification returns a `(label, confidence)` pair:
 ├── uv.lock                  # Locked dependency versions
 ├── .env.example             # Environment variable template
 ├── .gitignore               # Git ignore rules
-├── notes.html               # Interactive study notes
 └── README.md
 ```
 
