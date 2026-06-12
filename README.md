@@ -79,13 +79,19 @@ Every classification returns a `(label, confidence)` pair:
 ├── processor_regex.py       # Stage 1: Regex-based classification
 ├── processor_bert.py        # Stage 2: BERT embeddings + Logistic Regression
 ├── processor_llm.py         # Stage 3: LLM-based classification (Groq API)
+├── api.py                   # FastAPI web server (HTTP endpoints)
 ├── models/
 │   └── log_classifier.joblib # Pre-trained Logistic Regression model
 ├── Training/
 │   ├── Dataset/
 │   │   └── synthetic_logs.csv  # 2,410 labeled synthetic log entries
 │   └── log_classification.ipynb # Notebook for training the BERT classifier
-├── requirements.txt         # Python dependencies with version constraints
+├── requirements.txt         # Python dependencies
+├── pyproject.toml           # Project metadata and dependencies
+├── uv.lock                  # Locked dependency versions
+├── .env.example             # Environment variable template
+├── .gitignore               # Git ignore rules
+├── notes.html               # Interactive study notes
 └── README.md
 ```
 

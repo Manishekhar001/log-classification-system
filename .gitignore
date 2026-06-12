@@ -1,21 +1,55 @@
-# Python-generated files
+# --- Python ---
 __pycache__/
-*.py[oc]
+*.py[cod]
+*.egg
+*.egg-info/
 build/
 dist/
 wheels/
-*.egg-info
+*.so
 
-# Virtual environments
-.venv
-.idea
-.xml
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+.env
 
-# Default ignored files
+# --- Testing & Linting ---
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+coverage/
+coverage.xml
+htmlcov/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Logs ---
+*.log
+
+# --- OS artifacts ---
+.DS_Store
+Thumbs.db
+
+# --- IDE ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
 /shelf/
 /workspace.xml
-# Editor-based HTTP Client requests
 /httpRequests/
-# Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+.xml
+
+# --- Project-specific sensitive files ---
+log-classification_accessKeys.csv
+log-classification_credentials.csv
+log-classification.pem
